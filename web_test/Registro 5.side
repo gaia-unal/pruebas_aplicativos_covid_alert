@@ -1,0 +1,376 @@
+{
+  "id": "6c8a932d-2c5c-4cff-ac30-e165daa60a7a",
+  "version": "2.0",
+  "name": "Login 3",
+  "url": "https://www.covidalert.com.co",
+  "tests": [{
+    "id": "7e81a2e9-1af6-41e1-9220-2db27abb147b",
+    "name": "Registro 5",
+    "commands": [{
+      "id": "041c20a7-7b8a-4d14-989b-8fe985f5ae18",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8da172d-082e-4a02-99bb-c5360340db49",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6af12ea-3854-4b00-8692-f421e700c266",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c67-5:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c67-5:nth-child(2)", "css:finder"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tus datos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a47bf491-1e30-40d0-ba61-08da6e9db327",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[5]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36f2973c-a789-4fb8-b76d-5015f9681275",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tus datos",
+      "targets": [
+        ["linkText=Tus datos", "linkText"],
+        ["css=.ng-tns-c67-5 > .p-ripple", "css:finder"],
+        ["xpath=(//a[contains(@href, '#/tusDatos')])[2]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tus datos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9dc13b4-3f8a-472e-a998-09dc32df404b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c57-8 > .p-dropdown-label",
+      "targets": [
+        ["css=.ng-tns-c57-8 > .p-dropdown-label", "css:finder"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7351ad66-b122-490e-87bc-7c1afefe1c74",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c57-8:nth-child(2) > .p-dropdown-item > .ng-star-inserted",
+      "targets": [
+        ["css=.ng-tns-c57-8:nth-child(2) > .p-dropdown-item > .ng-star-inserted", "css:finder"],
+        ["xpath=//p-dropdownitem[2]/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cédula de ciudadanía')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04b9de04-8251-46c9-b775-819ef704d316",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//p-dropdownitem[2]/li/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a285513a-cdb4-42b6-8e7a-5e3f4d6d1b57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c57-8:nth-child(2) > .p-dropdown-item",
+      "targets": [
+        ["css=.ng-tns-c57-8:nth-child(2) > .p-dropdown-item", "css:finder"],
+        ["xpath=//p-dropdownitem[2]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Cédula de ciudadanía')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc07029f-4ff5-465f-aa4e-3f24fef9d72a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-field:nth-child(2) > .p-inputtext",
+      "targets": [
+        ["css=.p-field:nth-child(2) > .p-inputtext", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce3b1a29-a0da-46dd-8a87-546c3a505edf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.p-field:nth-child(2) > .p-inputtext",
+      "targets": [
+        ["css=.p-field:nth-child(2) > .p-inputtext", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "8ffcb35e-8d2f-421f-a972-b9eaba4d78ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-field:nth-child(3) > .p-inputtext",
+      "targets": [
+        ["css=.p-field:nth-child(3) > .p-inputtext", "css:finder"],
+        ["xpath=//input[@type='date']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5292a3f2-fb30-4f01-9394-134dbca0f3af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-field:nth-child(3) > .p-inputtext",
+      "targets": [
+        ["css=.p-field:nth-child(3) > .p-inputtext", "css:finder"],
+        ["xpath=//input[@type='date']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbd7de03-38f1-4dd2-969e-e52331b7fb97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-field:nth-child(3) > .p-inputtext",
+      "targets": [
+        ["css=.p-field:nth-child(3) > .p-inputtext", "css:finder"],
+        ["xpath=//input[@type='date']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54932cf0-b8cc-4877-bdb8-ada1e0fa4182",
+      "comment": "",
+      "command": "type",
+      "target": "css=.p-field:nth-child(3) > .p-inputtext",
+      "targets": [
+        ["css=.p-field:nth-child(3) > .p-inputtext", "css:finder"],
+        ["xpath=//input[@type='date']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "0001-01-01"
+    }, {
+      "id": "8250c575-ab7a-4856-b525-1a03084e30c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96c6aec7-fea2-435e-a894-8aa81b781bba",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "32116788901"
+    }, {
+      "id": "64c415b9-5adc-487b-8106-af7d809c7032",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c57-9 > .p-dropdown-label",
+      "targets": [
+        ["css=.ng-tns-c57-9 > .p-dropdown-label", "css:finder"],
+        ["xpath=//div[5]/p-dropdown/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b926ef5-ff45-4db4-9469-9699c27ec6d7",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c57-9:nth-child(6) > .p-dropdown-item",
+      "targets": [
+        ["css=.ng-tns-c57-9:nth-child(6) > .p-dropdown-item", "css:finder"],
+        ["xpath=//p-dropdownitem[6]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'La Fuente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68582b9f-2c70-43bb-bd0c-7d5c206ef79a",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//p-dropdownitem[6]/li/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "298f468e-9992-4788-89f5-2ebc59fb0c01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c57-9:nth-child(6) > .p-dropdown-item",
+      "targets": [
+        ["css=.ng-tns-c57-9:nth-child(6) > .p-dropdown-item", "css:finder"],
+        ["xpath=//p-dropdownitem[6]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'La Fuente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c706ab2-a4ed-492d-adc3-2520066a933c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c57-10 > .p-dropdown-label",
+      "targets": [
+        ["css=.ng-tns-c57-10 > .p-dropdown-label", "css:finder"],
+        ["xpath=//div[6]/p-dropdown/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33f68deb-b264-45d4-8446-9c91fcb5c413",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c57-10:nth-child(6) .ng-star-inserted",
+      "targets": [
+        ["css=.ng-tns-c57-10:nth-child(6) .ng-star-inserted", "css:finder"],
+        ["xpath=//p-dropdownitem[6]/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Villacarmenza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9e33698-f117-4d56-9f7e-27f1b1e4ae67",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//p-dropdownitem[6]/li/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a617261d-b729-46c4-a41a-1844c9b9c097",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c57-10:nth-child(6) > .p-dropdown-item",
+      "targets": [
+        ["css=.ng-tns-c57-10:nth-child(6) > .p-dropdown-item", "css:finder"],
+        ["xpath=//p-dropdownitem[6]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Villacarmenza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03bbcd8a-ff43-4dba-ae55-6eeed728a368",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b568eaa-fabd-417b-96cf-19f647e8b582",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "3211678890"
+    }, {
+      "id": "70787130-76a7-484a-a829-f17e36587022",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card > .p-grid",
+      "targets": [
+        ["css=.card > .p-grid", "css:finder"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa4ea8be-7641-4b44-9f71-b98451916d16",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=p-button:nth-child(1) > .p-button",
+      "targets": [
+        ["css=p-button:nth-child(1) > .p-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[7]/p-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73acbc94-c052-4781-a805-ecbd38871563",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//div[7]/p-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40b38aae-f5ba-4733-95a2-66558b6c6353",
+      "comment": "",
+      "command": "click",
+      "target": "css=p-button:nth-child(1) > .p-button",
+      "targets": [
+        ["css=p-button:nth-child(1) > .p-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[7]/p-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95d3a62b-48a3-413d-a343-af1221ffc5cb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//div[7]/p-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c454c2f-d0e3-4381-8951-cbb79624cdc4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=p-button:nth-child(1) .p-ink",
+      "targets": [
+        ["css=p-button:nth-child(1) .p-ink", "css:finder"],
+        ["xpath=//div[7]/p-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f6604e83-865e-4f5d-abf7-b6c715522dc2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7e81a2e9-1af6-41e1-9220-2db27abb147b"]
+  }],
+  "urls": ["https://www.covidalert.com.co/"],
+  "plugins": []
+}
