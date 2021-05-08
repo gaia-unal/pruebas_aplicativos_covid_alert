@@ -1,0 +1,120 @@
+{
+  "id": "2d7c5c28-6267-406c-b3b2-e0ed1bc7fb6c",
+  "version": "2.0",
+  "name": "2. Sobre el sistema",
+  "url": "https://covidalert.com.co",
+  "tests": [{
+    "id": "04599f14-1b2b-4397-a150-d8503266f669",
+    "name": "Sobre el sistema",
+    "commands": [{
+      "id": "4726b09d-4157-4c7d-a6a3-0aa38fe404da",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a869dcb6-e7e5-4896-ae12-9b85342b3428",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd399a71-5945-41f6-81e5-f2576aee7b19",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=.active-menuitem-routerlink", "css:finder"],
+        ["xpath=(//a[contains(@href, '#/')])[3]", "xpath:href"],
+        ["xpath=//app-menu/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72e47d28-6f54-4191-8d58-ec8c96bfcd38",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31da0d46-f022-4ac6-a372-1fb8396b8a6f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=.active-menuitem-routerlink", "css:finder"],
+        ["xpath=(//a[contains(@href, '#/')])[3]", "xpath:href"],
+        ["xpath=//app-menu/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ec46404-6785-441b-aaac-36f94dd7fdae",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Sobre el sistema",
+      "targets": [
+        ["linkText=Sobre el sistema", "linkText"],
+        ["css=.ng-tns-c85-1 > .p-ripple", "css:finder"],
+        ["xpath=//a[contains(@href, '#/informacion')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sobre el sistema')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36a82385-3b27-4362-b49a-dd190b9456ec",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9906bb88-9c33-4245-a215-f9969a085db1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sobre el sistema",
+      "targets": [
+        ["linkText=Sobre el sistema", "linkText"],
+        ["css=.ng-tns-c85-1 > .p-ripple", "css:finder"],
+        ["xpath=//a[contains(@href, '#/informacion')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sobre el sistema')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fac1fc9-95ed-48e4-93cf-48be5f1b432f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=.ng-tns-c85-0 > .p-ripple", "css:finder"],
+        ["xpath=(//a[contains(@href, '#/')])[3]", "xpath:href"],
+        ["xpath=//app-menu/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4e083b98-dd79-4271-ae88-71c7043744d6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://covidalert.com.co/"],
+  "plugins": []
+}

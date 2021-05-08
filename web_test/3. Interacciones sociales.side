@@ -1,0 +1,200 @@
+{
+  "id": "2d7c5c28-6267-406c-b3b2-e0ed1bc7fb6c",
+  "version": "2.0",
+  "name": "3. Interacciones sociales",
+  "url": "https://covidalert.com.co",
+  "tests": [{
+    "id": "7a64b155-2f7f-49b3-b84f-9d55087dd2f6",
+    "name": "Relación entre comunas de Manizales",
+    "commands": [{
+      "id": "e1f58d9b-b6a6-44cb-9c57-dee4d84f983b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0832395d-585b-40c4-9353-e86736e91f79",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4d9a07e-1348-45cf-85ad-9f68758a1770",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c85-2:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c85-2:nth-child(2)", "css:finder"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Interacciones sociales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc703a7b-96a2-42f2-bddf-43c8d96c7bd9",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4260472-fa18-4cd7-a9d6-5b58fc661b5e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Interacciones sociales",
+      "targets": [
+        ["linkText=Interacciones sociales", "linkText"],
+        ["css=.ng-tns-c85-2 > .p-ripple", "css:finder"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Interacciones sociales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee08c26b-ebd8-4752-83cd-74e25e097072",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c85-11:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c85-11:nth-child(2)", "css:finder"],
+        ["xpath=//li[3]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Relación entre comunas de Manizales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66e72da9-2eba-4d12-bd13-0cbd19cf2577",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[3]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e74004d-7f98-4ce5-84a8-98904f3b138e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Relación entre comunas de Manizales",
+      "targets": [
+        ["linkText=Relación entre comunas de Manizales", "linkText"],
+        ["css=.ng-tns-c85-11 > .p-ripple", "css:finder"],
+        ["xpath=//a[contains(@href, '#/interaccionesSociales/0')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Relación entre comunas de Manizales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3d5eb1f-d8ee-4c8b-87f8-055e7dd49e2f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[3]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7234692c-550d-4990-a68c-4ced3e0a3afb",
+    "name": "Relación entre municipios de Caldas",
+    "commands": [{
+      "id": "58f310cb-241b-4df3-9ed0-6d62fe64ea26",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd9ce200-f14e-4a09-bc33-d3dbb02d6459",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "652072bf-cd51-4ed8-b1ba-3921da88b712",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Interacciones sociales",
+      "targets": [
+        ["linkText=Interacciones sociales", "linkText"],
+        ["css=.ng-tns-c85-2 > .p-ripple", "css:finder"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Interacciones sociales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2075bdb0-63fd-413f-93fe-18ec48c863a7",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bd31518-a5e3-4f53-af3c-6a8d342e7821",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Interacciones sociales",
+      "targets": [
+        ["linkText=Interacciones sociales", "linkText"],
+        ["css=.ng-tns-c85-2 > .p-ripple", "css:finder"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Interacciones sociales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dc5a8af-e2d4-4072-817b-6e08c96cceb5",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Relación entre municipios de Caldas",
+      "targets": [
+        ["linkText=Relación entre municipios de Caldas", "linkText"],
+        ["css=.ng-tns-c85-9 > .p-ripple", "css:finder"],
+        ["xpath=//a[contains(@href, '#/interaccionesSociales/1')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Relación entre municipios de Caldas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cba10f22-50cf-4638-84c4-2efff609dfc6",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[3]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82158e48-be1a-4170-8020-a15a47e39243",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Relación entre municipios de Caldas",
+      "targets": [
+        ["linkText=Relación entre municipios de Caldas", "linkText"],
+        ["css=.ng-tns-c85-9 > .p-ripple", "css:finder"],
+        ["xpath=//a[contains(@href, '#/interaccionesSociales/1')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Relación entre municipios de Caldas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4e083b98-dd79-4271-ae88-71c7043744d6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://covidalert.com.co/"],
+  "plugins": []
+}

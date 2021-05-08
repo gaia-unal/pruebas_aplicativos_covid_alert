@@ -1,0 +1,652 @@
+{
+  "id": "2d7c5c28-6267-406c-b3b2-e0ed1bc7fb6c",
+  "version": "2.0",
+  "name": "1. Inicio",
+  "url": "https://covidalert.com.co",
+  "tests": [{
+    "id": "8b06ba54-9a78-4091-add6-ff55d533e267",
+    "name": "Conoce la red de interacciones sociales por comunas de la ciudad",
+    "commands": [{
+      "id": "6a23a389-97f6-42c7-a0f4-23b39afc18d5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1ee0cf1-1b13-4587-a08f-cf750a1bf2bb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5941a7f8-0878-469d-85ae-61ef4d0c19c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enlaces_home:nth-child(1) > .textos_enlaces_home",
+      "targets": [
+        ["css=.enlaces_home:nth-child(1) > .textos_enlaces_home", "css:finder"],
+        ["xpath=//div[@id='contenedor_enlaces_home']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "786a50f5-0c51-4184-8f0e-b3f607cebe40",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=#p-tabpanel-3-label > .p-tabview-title",
+      "targets": [
+        ["css=#p-tabpanel-3-label > .p-tabview-title", "css:finder"],
+        ["xpath=//a[@id='p-tabpanel-3-label']/span[2]", "xpath:idRelative"],
+        ["xpath=//p-tabview/div/ul/li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Relación entre municipios de Caldas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f59c0a56-d71a-4160-be08-f54ea3b9a47b",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//a[@id='p-tabpanel-3-label']/span[3]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ab7ed5c-727e-429b-ad15-4cb9f298809e",
+      "comment": "",
+      "command": "click",
+      "target": "id=p-tabpanel-3-label",
+      "targets": [
+        ["id=p-tabpanel-3-label", "id"],
+        ["linkText=Relación entre municipios de Caldas", "linkText"],
+        ["css=#p-tabpanel-3-label", "css:finder"],
+        ["xpath=//a[@id='p-tabpanel-3-label']", "xpath:attributes"],
+        ["xpath=//p-tabview/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Relación entre municipios de Caldas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77aa93db-fd5d-4621-a995-492e2f710970",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=p-tabpanel-2-label",
+      "targets": [
+        ["id=p-tabpanel-2-label", "id"],
+        ["linkText=Relación entre comunas de Manizales", "linkText"],
+        ["css=#p-tabpanel-2-label", "css:finder"],
+        ["xpath=//a[@id='p-tabpanel-2-label']", "xpath:attributes"],
+        ["xpath=//p-tabview/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Relación entre comunas de Manizales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b8e0153-d8e4-4755-9866-e136fbbb93c9",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//a[@id='p-tabpanel-2-label']/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "266efcae-c741-457f-9bb6-e8088bb7d1c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=p-tabpanel-2-label",
+      "targets": [
+        ["id=p-tabpanel-2-label", "id"],
+        ["linkText=Relación entre comunas de Manizales", "linkText"],
+        ["css=#p-tabpanel-2-label", "css:finder"],
+        ["xpath=//a[@id='p-tabpanel-2-label']", "xpath:attributes"],
+        ["xpath=//p-tabview/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Relación entre comunas de Manizales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42b5eb79-3c57-4155-abcc-4c5e3597e6b6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=.ng-tns-c85-0 > .p-ripple", "css:finder"],
+        ["xpath=(//a[contains(@href, '#/')])[3]", "xpath:href"],
+        ["xpath=//app-menu/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9a9531ca-eaf7-4cd0-8b0b-248b7577b65c",
+    "name": "Analiza probabilidades de exposición a un contagio y predicción del comportamiento del virus por comunas y días",
+    "commands": [{
+      "id": "00d27dee-6b3c-45d8-a773-ef836f02784b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4271cfc5-5421-4d45-a955-6318ede562ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fb5bd28-5dbf-4e23-90a3-5b0ea7bd7224",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enlaces_home:nth-child(2) > .textos_enlaces_home",
+      "targets": [
+        ["css=.enlaces_home:nth-child(2) > .textos_enlaces_home", "css:finder"],
+        ["xpath=//div[@id='contenedor_enlaces_home']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b433b614-8959-4255-bd18-b3cfd3c4b7e3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "afab1dcb-31c8-4e59-a1aa-ca52ceff886b",
+    "name": "Observa interacciones propias con tu red de contactos y lugares que visitas",
+    "commands": [{
+      "id": "60cf0b23-fecd-4556-8697-621180ca1ecc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12609bf3-8848-4739-b626-bf6bbd145c45",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f98df9a0-e10c-459d-88cc-3c3a93adda14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fondo_violeta",
+      "targets": [
+        ["css=.fondo_violeta", "css:finder"],
+        ["xpath=//div[@id='contenedor_enlaces_home']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e4984bd-abf0-4b2b-89aa-298f6832e8d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=.ng-tns-c85-0 > .p-ripple", "css:finder"],
+        ["xpath=(//a[contains(@href, '#/')])[3]", "xpath:href"],
+        ["xpath=//app-menu/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "81bab8da-d07a-4ec1-885a-3491fe344698",
+    "name": "Solicita un código QR para ubicarlo en tu establecimiento y ayudar a generar reportes de visitas",
+    "commands": [{
+      "id": "52ab09ff-85e5-4b7a-a977-45784fac6de8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c65dbed8-9314-4c16-a0c9-cb8ea8e7e03f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fceebeec-0c2b-4178-ae3e-11cb9b1c225d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fondo_gris_tres",
+      "targets": [
+        ["css=.fondo_gris_tres", "css:finder"],
+        ["xpath=//div[@id='contenedor_enlaces_home']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b9d76c3-6cf8-42b9-bf38-fc3a450faab9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=.ng-tns-c85-0 > .p-ripple", "css:finder"],
+        ["xpath=(//a[contains(@href, '#/')])[3]", "xpath:href"],
+        ["xpath=//app-menu/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df273b50-24bd-4271-9ad7-dfcf2094afa7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffe0221c-0406-473e-84d1-a2d4d1290b12",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ng-tns-c85-0 > .p-ink",
+      "targets": [
+        ["css=.ng-tns-c85-0 > .p-ink", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "79113b5a-fb7b-472d-affa-135df756a1c3",
+    "name": "Probabilidad de exposición a un contagio por comunas",
+    "commands": [{
+      "id": "192565e6-3dff-4ddf-8288-de24549835cc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a7fb299-3ab6-4cb9-a685-0a311032dba2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a8bfc33-cbb5-41fa-904f-9ecbaeef4efe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(2) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(2) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[2]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[2]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9631c06-15d8-4f36-8a41-7b72dbd0ba4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(3) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(3) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[3]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[3]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8322f25e-6077-43f3-a51e-e03cb3f75dd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(4) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(4) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[4]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[4]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d845782-e144-4006-8963-e49e8ffdefb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider",
+      "targets": [
+        ["css=.ngx-slider", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider", "xpath:idRelative"],
+        ["xpath=//ngx-slider", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "355b4d57-56a6-4cf3-a87e-b23c5b370a46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(6) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(6) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[6]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[6]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b8a5e44-5a3f-483a-8728-82a07cf9d1ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(7) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(7) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[7]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[7]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c554c65-5dc7-47e3-87ba-b937433d50bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(8) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(8) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[8]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[8]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5df1d4ec-67f8-47cd-810e-c626a58fcf77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(9) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(9) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[9]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[9]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae9fc58-a8bd-43e5-aaa1-41769e671a74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(10) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(10) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[10]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[10]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82a02a62-3d4d-4524-b288-3a42056399bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(11) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(11) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[11]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[11]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c397b843-3a2a-4b8b-96ea-4c6fd7733200",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(12) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(12) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[12]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[12]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9946f54d-442b-4e67-bde8-b5e25f1ae79e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-full-bar > .ngx-slider-span",
+      "targets": [
+        ["css=.ngx-slider-full-bar > .ngx-slider-span", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[3]/span", "xpath:idRelative"],
+        ["xpath=//span[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c443152c-476a-4d29-8ad1-0ba9df47fa19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(14) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(14) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[14]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[14]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c27041ee-8c40-479f-badb-c0355c009f9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(15) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(15) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[15]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[15]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bf21cce-1204-4f02-b211-0f1d0e4bc678",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(16) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(16) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[16]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[16]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04fc68d3-11a0-4a56-9726-2486dee7ab12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(17) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(17) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[17]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[17]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0465449-748f-40d2-8717-b43787afa053",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(18) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(18) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[18]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[18]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e13cf427-52c8-4180-8077-59520565ce78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(19) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(19) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[19]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[19]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cc2ad1a-f793-4b58-9092-3c172317c138",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-full-bar",
+      "targets": [
+        ["css=.ngx-slider-full-bar", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fca6aae8-6e0c-402c-bb63-71a92ef1e816",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(21) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(21) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span[21]/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//span[21]/ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5bc5337-b887-43d9-a1a6-2af5de9ebbf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ngx-slider-tick:nth-child(1) .ngx-slider-inner-tooltip",
+      "targets": [
+        ["css=.ngx-slider-tick:nth-child(1) .ngx-slider-inner-tooltip", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/app-slider-fechas/ngx-slider/span[12]/span/ngx-slider-tooltip-wrapper/div", "xpath:idRelative"],
+        ["xpath=//ngx-slider-tooltip-wrapper/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a9c67797-d3b3-4e97-96a8-054c2d750d20",
+    "name": "Descarga datos del gráfico",
+    "commands": [{
+      "id": "a98dc2ce-0855-4acc-ad1c-1b71e1c4e992",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08695d07-6fef-4a30-9d32-235c5cc0c359",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6688322-c408-4d4c-b49a-cedbd880ee53",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.p-button-label:nth-child(2)",
+      "targets": [
+        ["css=.p-button-label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Descargar datos del gráfico')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bad53c64-78b6-43d6-ac75-c0f6fd6f08fd",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/div[2]/button/span[3]", "xpath:idRelative"],
+        ["xpath=//button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b57de96c-2870-484f-ba9e-ef1c4ca54f9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-button-secondary",
+      "targets": [
+        ["css=.p-button-secondary", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='p-panel-0-content']/div/div/app-probabilidad-contagio-manizales/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Descargar datos del gráfico')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "332b0b26-49a3-4e43-bcad-13f23b19016c",
+    "name": "Ingresa tus datos",
+    "commands": [{
+      "id": "d80b2d51-c10a-4971-a6a7-4a1cb0b62c66",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf0405ee-ea3f-475d-b4fe-6a714de51713",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58ff5caa-94d9-4da5-a4d6-2f5f8b4d6b7f",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.p-button-label:nth-child(1)",
+      "targets": [
+        ["css=.p-button-label:nth-child(1)", "css:finder"],
+        ["xpath=//div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ingresa tus datos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c7aa00f-32ff-4e47-85ef-9d5c7f400477",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//div/div/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1008cf5a-dfe4-4fff-b3ec-600c8f9d3297",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fondo_blanco",
+      "targets": [
+        ["css=.fondo_blanco", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresa tus datos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce6da1c1-6dde-4b41-b502-6ceca9622111",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//div/div/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2e61ef1-35f0-4291-8c07-43ac83160c6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inicio",
+      "targets": [
+        ["linkText=Inicio", "linkText"],
+        ["css=.ng-tns-c85-0 > .p-ripple", "css:finder"],
+        ["xpath=(//a[contains(@href, '#/')])[3]", "xpath:href"],
+        ["xpath=//app-menu/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4e083b98-dd79-4271-ae88-71c7043744d6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8b06ba54-9a78-4091-add6-ff55d533e267"]
+  }],
+  "urls": ["https://covidalert.com.co/"],
+  "plugins": []
+}

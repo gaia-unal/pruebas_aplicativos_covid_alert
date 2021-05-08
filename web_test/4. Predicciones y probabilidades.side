@@ -1,0 +1,473 @@
+{
+  "id": "2d7c5c28-6267-406c-b3b2-e0ed1bc7fb6c",
+  "version": "2.0",
+  "name": "4. Predicciones y probabilidades",
+  "url": "https://covidalert.com.co",
+  "tests": [{
+    "id": "044b9dd8-c292-4ad3-826d-2e502f0464a5",
+    "name": "Curvas de predicción Manizales",
+    "commands": [{
+      "id": "d6bc86b8-f220-46a0-b9e4-9d578c4f02b9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39f424ef-abbd-40d9-bf9f-2f2b62b0b491",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f1c1580-9578-49e0-b16c-14d83d45800f",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c85-3:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c85-3:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Predicciones y probabilidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0ab9b2-bf3a-4d09-9ccc-3e0236cee18e",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea9fbb4b-e83c-493d-848b-9c6075be2496",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Predicciones y probabilidades",
+      "targets": [
+        ["linkText=Predicciones y probabilidades", "linkText"],
+        ["css=.ng-tns-c85-3 > .p-ripple", "css:finder"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Predicciones y probabilidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d4b7d8d-fc4a-46e1-a104-1b03bb86ebf7",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c85-8:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c85-8:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Curvas de predicción Manizales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fbcb5eb-4ae5-4e5b-bac0-9a9bbffce505",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6079d3f2-a9b2-433b-a290-c9d1c2aa24ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Curvas de predicción Manizales",
+      "targets": [
+        ["linkText=Curvas de predicción Manizales", "linkText"],
+        ["css=.ng-tns-c85-8 > .p-ripple", "css:finder"],
+        ["xpath=//a[contains(@href, '#/prediccionesProbabilidades/0')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Curvas de predicción Manizales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "916b1958-4d3c-41a5-9e5c-3d41e3735891",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1dc8905-5e26-421f-845d-3b1599a13a1d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4390897-703d-4d72-adda-00dc898fd2f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c62-13 > .p-dropdown-trigger-icon",
+      "targets": [
+        ["css=.ng-tns-c62-13 > .p-dropdown-trigger-icon", "css:finder"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[2]/div/div/p-dropdown/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18841235-db04-4575-a9a9-10a4fdcd8729",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c62-13:nth-child(7) .ng-star-inserted",
+      "targets": [
+        ["css=.ng-tns-c62-13:nth-child(7) .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[2]/div/div/p-dropdown/div/div[3]/div/ul/p-dropdownitem[7]/li/span", "xpath:idRelative"],
+        ["xpath=//p-dropdownitem[7]/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'La Fuente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44cb297e-da8a-4452-a2d3-9bc44ec6f17e",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[2]/div/div/p-dropdown/div/div[3]/div/ul/p-dropdownitem[7]/li/span[2]", "xpath:idRelative"],
+        ["xpath=//p-dropdownitem[7]/li/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2e96159-3a4f-4edc-b91a-9e67584860bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c62-13:nth-child(7) > .p-dropdown-item",
+      "targets": [
+        ["css=.ng-tns-c62-13:nth-child(7) > .p-dropdown-item", "css:finder"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[2]/div/div/p-dropdown/div/div[3]/div/ul/p-dropdownitem[7]/li", "xpath:idRelative"],
+        ["xpath=//p-dropdownitem[7]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'La Fuente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c452c1f-59ed-4daa-a975-ccc79f1c0c14",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,78)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "908017c8-83e7-49be-b522-49fada9593f7",
+    "name": "Similitud y probabilidad de contagios por comunas",
+    "commands": [{
+      "id": "569bed73-5b98-4b11-a035-96609cb9d9e5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77ac81a2-5ec4-4b82-85bd-470410f21311",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93880f73-6e8e-40d9-b74e-f684d51ea75e",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c85-3:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c85-3:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Predicciones y probabilidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26e16e4-2941-46d8-89ad-22c6720eb1f9",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c87955b1-a677-45d7-a7a4-6f184a5cae80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Predicciones y probabilidades",
+      "targets": [
+        ["linkText=Predicciones y probabilidades", "linkText"],
+        ["css=.ng-tns-c85-3 > .p-ripple", "css:finder"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Predicciones y probabilidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5197cf58-54b9-4cc5-9ea1-11563290ec54",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c85-18 > .ng-tns-c85-18:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c85-18 > .ng-tns-c85-18:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Similitud y probabilidad de contagios por comunas de Manizales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a40df2-91d9-4771-b4cc-16545ae640d7",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e398fdfd-ce84-4dd5-b02c-1e7eac8274d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Similitud y probabilidad de contagios por comunas de Manizales",
+      "targets": [
+        ["linkText=Similitud y probabilidad de contagios por comunas de Manizales", "linkText"],
+        ["css=.ng-tns-c85-18 > .p-ripple", "css:finder"],
+        ["xpath=//a[contains(@href, '#/prediccionesProbabilidades/1')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Similitud y probabilidad de contagios por comunas de Manizales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29457c0c-ee2c-4b44-8250-228300e19ac4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3948d8f7-1edf-4a76-a4c6-d98644745f81",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e3a675fe-303c-476c-984b-f32b605247e5",
+    "name": "Curvas de predicción Caldas",
+    "commands": [{
+      "id": "8cb89638-3c10-4089-8654-a8a39f492c35",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc0c9d5b-bd26-46c8-ba73-82861eac84ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5f7290c-bdbb-4901-a091-295d300c260e",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Predicciones y probabilidades",
+      "targets": [
+        ["linkText=Predicciones y probabilidades", "linkText"],
+        ["css=.ng-tns-c85-3 > .p-ripple", "css:finder"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Predicciones y probabilidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8cb3e2c-e00b-42e6-9794-cecba3d8d579",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b6c8d43-a013-4ba7-99d0-5385ea556be1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Predicciones y probabilidades",
+      "targets": [
+        ["linkText=Predicciones y probabilidades", "linkText"],
+        ["css=.ng-tns-c85-3 > .p-ripple", "css:finder"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Predicciones y probabilidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0e46ebe-11e5-47f4-a6d3-730b61e0bf37",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c85-10:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c85-10:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Curvas de predicción Caldas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "680ad1ee-542b-46e9-950e-1afdd078eeed",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/ul/li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ee5001f-4f8b-46fa-bcd5-df66233efbe5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Curvas de predicción Caldas",
+      "targets": [
+        ["linkText=Curvas de predicción Caldas", "linkText"],
+        ["css=.ng-tns-c85-10 > .p-ripple", "css:finder"],
+        ["xpath=//a[contains(@href, '#/prediccionesProbabilidades/2')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Curvas de predicción Caldas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49808019-2ec7-44af-8bf6-2c23dd32d765",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/ul/li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5fc857d2-ecb9-4c00-9bbc-67099c58ae39",
+    "name": "Similitud de contagios por municipios de Caldas",
+    "commands": [{
+      "id": "5e5d58a7-6fb8-4a5d-982f-855ebf496743",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e444006-b4d9-418d-9bcf-6bbb6d07d38c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f1e2533-e7af-4377-bbd3-546574c424a6",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Predicciones y probabilidades",
+      "targets": [
+        ["linkText=Predicciones y probabilidades", "linkText"],
+        ["css=.ng-tns-c85-3 > .p-ripple", "css:finder"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Predicciones y probabilidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13ec8763-67b5-4e48-8ff4-9072a1cb6b2d",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f814500-43d7-4c23-b665-7926feee2a3d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Predicciones y probabilidades",
+      "targets": [
+        ["linkText=Predicciones y probabilidades", "linkText"],
+        ["css=.ng-tns-c85-3 > .p-ripple", "css:finder"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Predicciones y probabilidades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "020b5320-25ee-4321-aff1-8a5a9eb930b5",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c85-21:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c85-21:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Similitud de contagios por municipios de Caldas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b8a494-c5b8-4f8a-967c-e5e4504c8eef",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/ul/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3460f1e1-f180-4c2f-b401-89a45e4bfa2f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Similitud de contagios por municipios de Caldas",
+      "targets": [
+        ["linkText=Similitud de contagios por municipios de Caldas", "linkText"],
+        ["css=.ng-tns-c85-21 > .p-ripple", "css:finder"],
+        ["xpath=//a[contains(@href, '#/prediccionesProbabilidades/3')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Similitud de contagios por municipios de Caldas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1c80ba5-84b0-481c-afe2-9a0eb2f64770",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[4]/ul/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "323b3ab0-df22-444d-96cf-8dc0df6266db",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4e083b98-dd79-4271-ae88-71c7043744d6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://covidalert.com.co/"],
+  "plugins": []
+}
