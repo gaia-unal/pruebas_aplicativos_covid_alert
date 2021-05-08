@@ -1,0 +1,178 @@
+{
+  "id": "4085e52f-675b-4c4c-ba87-4660db27ed84",
+  "version": "2.0",
+  "name": "Tus datos",
+  "url": "https://www.covidalert.com.co",
+  "tests": [{
+    "id": "663044f3-cf06-4c4c-97ac-77e6b719a416",
+    "name": "Login Tus Datos",
+    "commands": [{
+      "id": "f143b151-06de-458b-9384-8e00344829da",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8035434-c5a7-4032-a4a9-80d64a885d38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "474ca5ff-bd17-4fb5-8919-85b642000552",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ng-tns-c84-5:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c84-5:nth-child(2)", "css:finder"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tus datos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f0cdde5-22fd-40e0-b1b9-a53e34efd059",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//li[6]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de772ed2-bdbb-49b2-8a24-11b4842fbd8f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tus datos",
+      "targets": [
+        ["linkText=Tus datos", "linkText"],
+        ["css=.ng-tns-c84-5 > .p-ripple", "css:finder"],
+        ["xpath=(//a[contains(@href, '#/tusDatos')])[3]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tus datos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b904df29-130c-469b-9866-90b0c7333f7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-untouched > .p-field > .p-inputtext",
+      "targets": [
+        ["css=.ng-untouched > .p-field > .p-inputtext", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[6]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d91d917-53d1-4c22-9b11-805199478473",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-untouched > .p-field > .p-inputtext",
+      "targets": [
+        ["css=.ng-untouched > .p-field > .p-inputtext", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[6]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bde51a28-445d-4bbb-add1-b4545942e16f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.ng-untouched > .p-field > .p-inputtext",
+      "targets": [
+        ["css=.ng-untouched > .p-field > .p-inputtext", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[6]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "929a4b1f-a3a4-4767-a782-776a97c2ee21",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-touched:nth-child(2)",
+      "targets": [
+        ["css=.ng-touched:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[6]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3108970106"
+    }, {
+      "id": "78c85bea-1ae4-4154-94bb-b8eb02dd45a2",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=p-button:nth-child(2) > .p-button",
+      "targets": [
+        ["css=p-button:nth-child(2) > .p-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[6]/div/form/p-button/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a719ea47-6348-4fbb-9bb7-c6bf47cd4ee1",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.p-ink-active",
+      "targets": [
+        ["css=.p-ink-active", "css:finder"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[6]/div/form/p-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e9ac425-67a1-46b1-afbf-f08659eda2ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=p-button:nth-child(2) > .p-button",
+      "targets": [
+        ["css=p-button:nth-child(2) > .p-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='p-tabpanel-0']/div/div[6]/div/form/p-button/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2978f49-584e-402c-985c-744f317dd51a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#user-display > img",
+      "targets": [
+        ["css=#user-display > img", "css:finder"],
+        ["xpath=//img[@alt='main logo']", "xpath:img"],
+        ["xpath=//a[@id='user-display']/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da69faca-4f41-4979-8b3e-fc2628807974",
+      "comment": "",
+      "command": "click",
+      "target": "css=#user-display > img",
+      "targets": [
+        ["css=#user-display > img", "css:finder"],
+        ["xpath=//img[@alt='main logo']", "xpath:img"],
+        ["xpath=//a[@id='user-display']/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6083e4a6-bdb1-4064-ae6c-02f769bdeb2d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["663044f3-cf06-4c4c-97ac-77e6b719a416"]
+  }],
+  "urls": ["https://www.covidalert.com.co/"],
+  "plugins": []
+}
