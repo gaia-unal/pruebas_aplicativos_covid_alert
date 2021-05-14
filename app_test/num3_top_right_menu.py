@@ -2,6 +2,8 @@ def main():
     from appium import webdriver
     import time
 
+    #Two options of the Top Right Menu working for the tests: "Control de Permisos" and "Invita a tus contactos". All the other options still doesn't work because the app developers haven't finished them and they are inaccessible.
+
     caps = {}
     caps["platformName"] = "Android"
     caps["platformVersion"] = "10"
