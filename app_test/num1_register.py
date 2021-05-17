@@ -57,16 +57,6 @@ def main():
     confirm = driver.find_element_by_accessibility_id("OK")
     confirm.click()
     time.sleep(5) #Sleep para que espere un momento a cargar
-    
-    """ Esto es un comentario de bloque
-    #Date: date of birth:
-    year = driver.find_element_by_accessibility_id("1959")
-    year.click()
-    day = driver.find_element_by_accessibility_id("8, Friday, May 8, 1959")
-    day.click()
-    confirm = driver.find_element_by_accessibility_id("OK")
-    confirm.click()
-    """
 
     # Telephone number
     space = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[2]")
@@ -91,6 +81,7 @@ def main():
     scroll2 = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.Button[3]")
     scroll2.click()
     time.sleep(2)
+    
     #neigh
     neigh = driver.find_element_by_accessibility_id("Galan")
     neigh.click()
