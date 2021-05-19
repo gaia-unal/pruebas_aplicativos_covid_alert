@@ -3,7 +3,7 @@ import time
 from appium import webdriver
 
 
-def check_user_menu(driver):
+def top_right_menu_test(driver):
     allowLocationAccess = driver.find_element_by_id(
         "com.android.permissioncontroller:id/permission_allow_foreground_only_button")
     allowLocationAccess.click()
@@ -34,6 +34,8 @@ def check_user_menu(driver):
     time.sleep(10)
     driver.back()
 
+    #Waiting for the rest of options to be released
+
 
 if __name__ == '__main__':
     caps = {}
@@ -49,4 +51,4 @@ if __name__ == '__main__':
     # Sleep for 30 seconds because of the initial informative image of the app and to wait the app to ask location permissions and allow it
     time.sleep(30)
 
-    check_user_menu(driver)
+    top_right_menu_test(driver)
