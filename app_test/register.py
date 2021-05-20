@@ -37,23 +37,28 @@ def register_test(driver):
     date = driver.find_element_by_xpath(
         "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[4]")
     date.click()
+
     inputDate = driver.find_element_by_accessibility_id(
         "Switch to input")
     inputDate.click()
+
     textboxDate = driver.find_element_by_class_name(
         "android.widget.EditText")
     textboxDate.clear()
+
     textboxDate.send_keys(
         "08/12/2001")
     confirm = driver.find_element_by_accessibility_id(
         "OK")
     confirm.click()
-    time.sleep(5) #Sleep para que espere un momento a cargar
+    time.sleep(5) #Neccessary time to load
 
-    # Telephone number
+    
     space = driver.find_element_by_xpath(
         "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[2]")
     space.click()
+    
+    # Telephone number
     number = driver.find_element_by_xpath(
         "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[2]")
     number.send_keys(
@@ -63,11 +68,12 @@ def register_test(driver):
 
     TouchAction(driver)   .press(x=660, y=1654)   .move_to(x=675, y=324)   .release()   .perform()
 
-    #Commune of Manizales
     site = driver.find_element_by_xpath(
         "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.Button[1]")
     site.click()
     time.sleep(2)
+
+    #Commune of Manizales
     commune = driver.find_element_by_accessibility_id(
         "San JosÃ©")
     commune.click()
@@ -93,8 +99,8 @@ def register_test(driver):
 
 if __name__ == '__main__':
     
-    nameTelephone="beyond1"
-    versionAndroid="7"
+    nameTelephone="j4primelte"
+    versionAndroid="9"
 
     caps = {}
     caps["platformName"] = "Android"
@@ -112,5 +118,6 @@ if __name__ == '__main__':
     #Window about the allow of ubication, the selected option is: "allow"
     allowUbication = driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button")
     allowUbication.click()
+    time.sleep(5)
 
     register_test(driver)
