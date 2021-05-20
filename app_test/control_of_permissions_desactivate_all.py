@@ -22,12 +22,9 @@ def control_of_permission_desactivate_all_test(driver):
     time.sleep(3)
 
     #definitions inside control permissions (can currently be seen on the screen)
-    gps = driver.find_element_by_xpath(
-        "(//android.view.View[@content-desc=\"On\"])[1]")
-    camera = driver.find_element_by_xpath(
-        "(//android.view.View[@content-desc=\"On\"])[2]")
-    iotDevice = driver.find_element_by_xpath(
-        "(//android.view.View[@content-desc=\"On\"])[3]")
+    gps = driver.find_element_by_xpath("(//android.view.View[@content-desc=\"on\"])[1]")
+    camera = driver.find_element_by_xpath("(//android.view.View[@content-desc=\"on\"])[2]")
+    iotDevice = driver.find_element_by_xpath("(//android.view.View[@content-desc=\"on\"])[3]")
 
 
     #Click in activate GPS
@@ -49,9 +46,9 @@ def control_of_permission_desactivate_all_test(driver):
 
     #On the screen can see now, the options: Help to improve the system and near Contacts, for this here are the definitions
     system = driver.find_element_by_xpath(
-        "(//android.view.View[@content-desc=\"On\"])[1]") 
+        "(//android.view.View[@content-desc=\"on\"])[1]") 
     nearContacts = driver.find_element_by_xpath(
-        "(//android.view.View[@content-desc=\"On\"])[2]")
+        "(//android.view.View[@content-desc=\"on\"])[2]")
 
     #Click in help to improve the system
     system.click()
