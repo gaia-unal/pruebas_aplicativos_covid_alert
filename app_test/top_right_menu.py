@@ -5,6 +5,9 @@ from appium import webdriver
 
 def top_right_menu_test(driver):
 
+    topRightMenu = driver.find_element_by_xpath(
+        "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]")
+
     topRightMenu.click()
 
     options = []
@@ -49,8 +52,6 @@ if __name__ == '__main__':
     # mapping
     continueWithoutRegister = driver.find_element_by_accessibility_id(
         "continuar sin registrarme")
-    topRightMenu = driver.find_element_by_xpath(
-        "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]")
 
     # From login to permission control
     continueWithoutRegister.click()
