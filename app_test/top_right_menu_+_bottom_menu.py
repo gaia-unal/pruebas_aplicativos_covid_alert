@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
 
-    # Sleep for 30 seconds because of the initial informative image of the app and to wait the app to ask location permissions and allow it
+    # Sleep for 15 seconds because of the initial informative image of the app
     time.sleep(15)
 
     top_right_menu_plus_bottom_menu_test(driver)

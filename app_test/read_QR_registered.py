@@ -25,17 +25,11 @@ if __name__ == '__main__':
     caps["automationName"] = "UiAutomator1"
     caps["appPackage"] = "com.example.aprendiendo"
     caps["appActivity"] = ".MainActivity"
+    caps["autoGrantPermissions"] = "true"
 
     driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
 
     # Time needed to reach the "allow" button in the location permission window
-    time.sleep(30)
-
-    # Window about the allow of ubication, the selected option is: "allow"
-    allowUbication = driver.find_element_by_id(
-        "com.android.packageinstaller:id/permission_allow_button")
-    # The last ID in other devices is: com.android.permissioncontroller:id/permission_allow_foreground_only_button
-    allowUbication.click()
-    time.sleep(3)
+    time.sleep(15)
 
     read_QR_registered(driver)

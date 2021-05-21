@@ -19,13 +19,11 @@ if __name__ == "__main__":
     caps["automationName"] = "UiAutomator1"
     caps["appPackage"] = "com.example.aprendiendo"
     caps["appActivity"] = ".MainActivity"
+    caps["autoGrantPermissions"] = "true"
 
     driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
 
-    # Sleep for 30 seconds because of the initial informative image of the app and to wait the app to ask location permissions and allow it
-    time.sleep(30)
-    allowLocationAccess = driver.find_element_by_id(
-        "com.android.permissioncontroller:id/permission_allow_foreground_only_button")
-    allowLocationAccess.click()
-    time.sleep(3)
+    # Sleep for 15 seconds because of the initial informative image of the app
+    time.sleep(15)
+
     continue_without_register_test(driver)
