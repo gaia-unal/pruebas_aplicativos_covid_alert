@@ -2,6 +2,8 @@ import time
 
 from appium import webdriver
 
+constant = "hola"
+
 
 def top_right_menu_test(driver):
 
@@ -12,23 +14,26 @@ def top_right_menu_test(driver):
 
     options = []
 
-    permissionControl = driver.find_element_by_accessibility_id("Control de permisos")
+    permissionControl = driver.find_element_by_accessibility_id(
+        "Control de permisos")
     options.append(permissionControl)
     permissionControl.click()
     time.sleep(5)
     driver.back()
 
     # From start screen to invite your contacts screen
-    inviteYourContacts = driver.find_element_by_accessibility_id("Invita a tus contactos")
+    inviteYourContacts = driver.find_element_by_accessibility_id(
+        "Invita a tus contactos")
     inviteYourContacts.click()
     options.append(inviteYourContacts)
-    allowContactsAccess = driver.find_element_by_id("com.android.permissioncontroller:id/permission_allow_button")
+    allowContactsAccess = driver.find_element_by_id(
+        "com.android.permissioncontroller:id/permission_allow_button")
     allowContactsAccess.click()
     # 10 seconds to let the app load the contact list and to see if the app shows the list correctly
     time.sleep(10)
     driver.back()
 
-    #Waiting for the rest of options to be released
+    # Waiting for the rest of options to be released
 
 
 if __name__ == '__main__':
