@@ -29,8 +29,6 @@ def mapping_bottom_menu_buttons(driver, bottom_menu_list):
 
 def top_right_menu_plus_bottom_menu_test(driver):
 
-    continue_without_register_test(driver)
-
     # First, we should mapp all the available options of the top right menu
     topRightMenu = driver.find_element_by_xpath(
         "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]")
@@ -65,5 +63,7 @@ if __name__ == "__main__":
 
     # Sleep for 15 seconds because of the initial informative image of the app
     time.sleep(15)
+
+    continue_without_register_test(driver)
 
     top_right_menu_plus_bottom_menu_test(driver)
