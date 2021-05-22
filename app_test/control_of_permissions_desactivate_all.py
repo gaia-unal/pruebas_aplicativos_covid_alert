@@ -60,8 +60,7 @@ def control_of_permission_desactivate_all_test(driver):
     time.sleep(2)
     nearContacts.click()
 
-    time.sleep(10)
-    driver.back
+    driver.back()
 
 
 if __name__ == '__main__':
