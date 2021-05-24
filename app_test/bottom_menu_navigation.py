@@ -72,16 +72,16 @@ def bottom_menu_navigation_test(driver):
 
     print("Run in ascending order")
     run_in_ascending_order(lista)
-    time.sleep(3)
+    time.sleep(2)
     print("Run in descending order")
     run_in_descending_order(lista)
-    time.sleep(3)
+    time.sleep(2)
     print("Run in random order")
     run_in_random_order(lista)
-    time.sleep(3)
+    time.sleep(2)
     print("Run in disorder")
     run_in_desorder(home, contagions, red, reportCovid, reportVaccine)
-    time.sleep(3)
+    time.sleep(2)
 
 
 if __name__ == '__main__':
