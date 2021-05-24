@@ -32,7 +32,7 @@ def run_in_desorder(home, contagions, red, reportCovid, reportVaccine):
     time.sleep(2)
     reportVaccine.click()
     time.sleep(2)
-    home.click()
+    red.click()
     time.sleep(2)
     reportCovid.click()
     time.sleep(2)
@@ -42,7 +42,7 @@ def run_in_desorder(home, contagions, red, reportCovid, reportVaccine):
     time.sleep(2)
     home.click()
     time.sleep(2)
-    red.click()
+    contagions.click()
 
 
 def bottom_menu_navigation_test(driver):
@@ -70,12 +70,16 @@ def bottom_menu_navigation_test(driver):
         "Reportar vacuna\nTab 5 of 5")
     lista.append(reportVaccine)
 
+    print("Run in ascending order")
     run_in_ascending_order(lista)
     time.sleep(3)
+    print("Run in descending order")
     run_in_descending_order(lista)
     time.sleep(3)
+    print("Run in random order")
     run_in_random_order(lista)
     time.sleep(3)
+    print("Run in disorder")
     run_in_desorder(home, contagions, red, reportCovid, reportVaccine)
     time.sleep(3)
 
