@@ -2,9 +2,8 @@ import time
 
 from appium import webdriver
 
-from start_session import start_session_test
-
 from read_QR import read_QR_test
+from start_session import start_session_test
 
 
 def read_QR_registered(driver):
