@@ -2,6 +2,8 @@ import time
 
 from appium import webdriver
 
+from appium.webdriver.common.touch_action import TouchAction
+
 
 def control_of_permission_activate_all_test(driver):
 
@@ -41,7 +43,6 @@ def control_of_permission_activate_all_test(driver):
     time.sleep(2)
     iotDevice.click()
 
-    from appium.webdriver.common.touch_action import TouchAction
     TouchAction(driver)   .press(x=292, y=1365)   .move_to(
         x=338, y=643)   .release()   .perform()
 
