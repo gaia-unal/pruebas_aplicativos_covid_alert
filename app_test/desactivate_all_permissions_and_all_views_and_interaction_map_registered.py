@@ -21,7 +21,7 @@ def desactivate_all_permissions_and_all_views_map_registered_test(driver):
 
     top_right_menu_test(driver)
 
-    time.sleep(5)
+    time.sleep(4)
 
     bottom_menu_navigation_test(driver)
     # The last view is: Contagions in communes
