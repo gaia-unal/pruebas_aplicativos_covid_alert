@@ -9,10 +9,6 @@ def read_QR_test(driver):
         "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ImageView")
     qrCodeMenu.click()
     time.sleep(3)
-    allowCameraPermission = driver.find_element_by_id(
-        "com.android.permissioncontroller:id/permission_allow_button")
-    allowCameraPermission.click()
-
     # Once here, we should scan the code moving our cellphone
 
 
