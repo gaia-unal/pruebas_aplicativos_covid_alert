@@ -24,10 +24,12 @@ def enter_dates(driver):
     date_first_dose.click()
     cadena = "03/01/2021"
     edit_a_date(driver, cadena)
+    time.sleep(2)
 
     date_second_dose.click()
     cadena = "06/01/2021"
     edit_a_date(driver, cadena)
+    time.sleep(2)
 
     report = driver.find_element_by_accessibility_id("Reportar")
     report.click()
