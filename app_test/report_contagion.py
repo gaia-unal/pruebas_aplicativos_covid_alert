@@ -55,37 +55,28 @@ def report_contagion_test(driver):
     reportContagionScreen.click()
 
     # Mapping
-    contagionDate = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[4]")
-    testDate = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[5]")
-    symptomsDate = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[6]")
+    time.sleep(2)
+    testDate = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[4]")
+    sympthomatic = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.RadioButton[1]")
+    asympthomatic = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.RadioButton[2]")
 
     #symptomatic test
-    contagion_date(driver, contagionDate)
     test_date(driver, testDate)
+    sympthomatic.click()
+    time.sleep(2)
+    symptomsDate = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[7]")
     symptoms_date(driver, symptomsDate)
     time.sleep(2)
-    TouchAction(driver)   .press(x=526, y=918)   .move_to(x=539, y=324)   .release()   .perform()
-    time.sleep(2)
-    symptomatic = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.RadioButton[1]")
-    symptomatic.click()
-    time.sleep(2)
-    reportButton = driver.find_element_by_accessibility_id("Reportar")
-    reportButton.click()
+    report = driver.find_element_by_accessibility_id("Reportar")
+    report.click()
 
     #asymptomatic test
-    time.sleep(2)
-    TouchAction(driver)   .press(x=539, y=324)   .move_to(x=526, y=918)   .release()   .perform()
-    time.sleep(2)
-    contagion_date(driver, contagionDate)
     test_date(driver, testDate)
-    symptoms_date(driver, symptomsDate)
+    asympthomatic.click()
     time.sleep(2)
-    TouchAction(driver)   .press(x=526, y=918)   .move_to(x=539, y=324)   .release()   .perform()
-    asymptomatic = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.RadioButton[2]")
-    asymptomatic.click()
-    time.sleep(2)
-    reportButton = driver.find_element_by_accessibility_id("Reportar")
-    reportButton.click()
+    report = driver.find_element_by_accessibility_id("Reportar")
+    report.click()
+
 
 
 if __name__ == "__main__":
