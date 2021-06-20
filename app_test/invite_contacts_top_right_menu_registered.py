@@ -3,12 +3,12 @@ import time
 from appium import webdriver
 
 from start_session import start_session_test
-from invite_contacts import invite_contacts_test
+from invite import invite_test
 
 
 def invite_contacts_registered_test(driver):
     start_session_test(driver)
-    invite_contacts_test(driver)
+    invite_test(driver)
 
 
 if __name__ == "__main__":
