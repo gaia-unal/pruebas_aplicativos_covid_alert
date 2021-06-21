@@ -8,6 +8,12 @@ from invite import invite_test
 
 def invite_contacts_registered_test(driver):
     start_session_test(driver)
+    time.sleep(3)
+    topRightMenu = driver.find_element_by_xpath(
+        "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]")
+    topRightMenu.click()
+    invite_contacts_option = driver.find_element_by_accessibility_id("Invita a tus contactos")
+    invite_contacts_option.click()
     invite_test(driver)
 
 
